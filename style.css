@@ -1,0 +1,116 @@
+.ear{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin:auto;
+    padding-top: 70px;
+
+
+}
+.lear, .rear{
+    width:65px;
+    height:100px;
+    background: rgb(245, 168, 181);
+    border: 2px solid black;
+    border-radius: 60%;
+}
+.face{
+    width:225px;
+    height:225px;
+    background: rgb(245, 168, 181);
+    border: 2px solid black;
+    border-radius: 50%;
+    position:absolute;
+   margin-top:260px;
+   margin-left:185px;
+}
+.main{
+    display: flex;
+    width:600px;
+    height:500px;
+    margin:auto;
+
+}
+.eye{
+    display:flex;
+    justify-content: space-evenly;
+    width:180px;
+    margin:auto;
+    padding-top: 40px;
+
+
+}
+.leye, .reye{
+    width:50px;
+    height: 50px;
+    background: #fff;
+    border:2px solid black;
+    border-radius: 50%;
+
+}
+.inleye, .inreye{
+    width:25px;
+    height:25px;
+    background: black;
+    border-radius: 50%;
+    margin:auto;
+    margin-top:25px;
+
+}
+.nose{
+    width:100px;
+    height:40px;
+    border: 2px solid black;
+    background: rgba(171, 28, 28, 0.639);
+    margin-top: 50px;
+    margin-left:65px; 
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.rnose, .lnose{
+    width:25px;
+    height:25px;
+    background: black;
+    border-radius: 50%;
+    margin-top: 5px;
+    padding-top: 3px;
+
+
+}
+.main:hover .inleye {
+margin-top:12px;
+padding-top: 7px;
+
+}
+.main:hover .inreye {
+    margin-top:12px;
+    padding-top: 7px;
+    
+    }
+
+
+.main:hover .lear{
+    height:110px;
+    border-top-left-radius: 30% ;
+    width:69px;
+
+}
+.main:hover .rear{
+    height:110px;
+    border-top-right-radius: 30% ;
+    width:69px;
+}
+
+.main:hover .face{
+    background: rgb(235, 102, 124);
+}
+.main:hover .lear{
+    background: rgb(235, 102, 124);
+}
+.main:hover .rear{
+    background: rgb(235, 102, 124);
+}
+.main:hover .nose{
+    background:rgba(148, 6, 6, 0.639)
+}
